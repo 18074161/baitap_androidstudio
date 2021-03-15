@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/background2"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background2">
 
     <TextView
         android:id="@+id/textView14"
@@ -26,11 +25,15 @@
         android:layout_width="384dp"
         android:layout_height="58dp"
         android:layout_marginTop="48dp"
-        android:background="#B6A829"
+        android:background="@drawable/custom_edittext"
         android:drawableLeft="@drawable/Vector3"
         android:ems="10"
         android:inputType="textPersonName"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
         android:text="Name"
+        android:textAllCaps="true"
         app:layout_constraintEnd_toEndOf="@+id/textView14"
         app:layout_constraintHorizontal_bias="0.01"
         app:layout_constraintStart_toStartOf="@+id/textView14"
@@ -58,6 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Forgot your password"
+
         android:textColor="#131313"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -68,8 +72,10 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="28dp"
+        android:layout_width="21dp"
         android:layout_height="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
         app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName2"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
         app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName2"
@@ -81,7 +87,7 @@
         android:layout_width="384dp"
         android:layout_height="58dp"
         android:layout_marginTop="12dp"
-        android:background="#B6A829"
+        android:background="@drawable/custom_edittext"
         android:drawableStart="@drawable/icon_lock"
         android:drawableRight="@drawable/Vector3"
         android:ems="10"
@@ -115,5 +121,6 @@
         app:layout_constraintTop_toTopOf="@+id/editTextTextPassword3"
         app:layout_constraintVertical_bias="0.48"
         app:srcCompat="@drawable/Vector1" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
