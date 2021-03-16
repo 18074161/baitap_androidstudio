@@ -26,12 +26,10 @@
         android:layout_height="58dp"
         android:layout_marginTop="48dp"
         android:background="@drawable/custom_edittext"
-        android:drawableLeft="@drawable/Vector3"
+        android:drawableLeft="@drawable/ic_vector3"
         android:ems="10"
+
         android:inputType="textPersonName"
-        android:shadowDx="1.5"
-        android:shadowDy="1.3"
-        android:shadowRadius="1.6"
         android:text="Name"
         android:textAllCaps="true"
         app:layout_constraintEnd_toEndOf="@+id/textView14"
@@ -70,28 +68,16 @@
         app:layout_constraintStart_toStartOf="@+id/button8"
         app:layout_constraintTop_toBottomOf="@+id/button8" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="21dp"
-        android:layout_height="12dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName2"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName2"
-        app:layout_constraintVertical_bias="0.26"
-        app:srcCompat="@drawable/Vector1" />
-
     <EditText
         android:id="@+id/editTextTextPassword3"
         android:layout_width="384dp"
         android:layout_height="58dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/custom_edittext"
-        android:drawableStart="@drawable/icon_lock"
-        android:drawableRight="@drawable/Vector3"
+        android:drawableRight="@drawable/ic_vector2"
         android:ems="10"
         android:inputType="textVisiblePassword|textPassword"
+        android:lineSpacingExtra="20dp"
         android:text="Password"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
         app:layout_constraintHorizontal_bias="0.0"
@@ -108,19 +94,31 @@
         app:layout_constraintStart_toStartOf="@+id/editTextTextPassword3"
         app:layout_constraintTop_toTopOf="@+id/editTextTextPassword3"
         app:layout_constraintVertical_bias="0.472"
-        app:srcCompat="@drawable/Vector2" />
+         />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="9dp"
-        android:layout_height="6dp"
-        android:layout_marginStart="360dp"
-        android:layout_marginLeft="360dp"
+        android:layout_width="11dp"
+        android:layout_height="11dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toBottomOf="@+id/editTextTextPassword3"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword3"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword3"
         app:layout_constraintTop_toTopOf="@+id/editTextTextPassword3"
-        app:layout_constraintVertical_bias="0.48"
-        app:srcCompat="@drawable/Vector1" />
+        app:srcCompat="@drawable/image1" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="13dp"
+        android:layout_height="11dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName2"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintVertical_bias="0.297"
+        app:srcCompat="@drawable/image1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
