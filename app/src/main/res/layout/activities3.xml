@@ -42,9 +42,9 @@
         android:textSize="23dp"
         android:textStyle="normal"
         app:backgroundTint="#E53935"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.592"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword5"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword5" />
 
     <TextView
@@ -96,7 +96,7 @@
         android:inputType="textVisiblePassword|textPassword"
         android:text="Password"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
 
